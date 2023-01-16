@@ -1,4 +1,13 @@
 # Bees
+Credits:
+Ronald Chen
+<br/>
+Anthony Mendez
+<br/>
+Matthew Johnson
+<br/>
+Senhuang Cai
+<br/>
 | Type | Link |
 | --- | --- |
 | Figma | https://www.figma.com/file/04PDUAMnIH6LQIqyNl6K82/Bee?node-id=0%3A1 |
