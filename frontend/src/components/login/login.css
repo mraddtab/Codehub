@@ -1,0 +1,276 @@
+.accountForm {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #062743;
+  }
+  
+  .signin {
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    color: white;
+    margin-right: 280px;
+  }
+  
+  .resetpassword {
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    color: white;
+    margin-right: 150px;
+  }
+  
+  .txtfields {
+    text-align: center;
+    z-index: 0;
+  }
+  
+  .emailfield{
+    top: 31px;
+    width: 317px;
+    height: 55px;
+    border: #062743;
+    padding-left: 36px;
+    border-radius: 9px;
+  }
+  
+  .inputPassword[type=password]{
+    position: relative;
+    top: 31px;
+    width: 317px;
+    height: 55px;
+    border: #062743;
+    padding-left: 36px;
+    border-radius: 9px;
+  }
+  
+  .confirmpassword {
+    position: relative;
+    top: 31px;
+  }
+  
+  .loginbutton {
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 300px;
+  }
+  
+  .user {
+    position: relative;
+    pointer-events: none;
+    text-align: center;
+    top: -98px;
+    padding-right: 320px;
+    z-index: 1;
+  }
+  
+  .lock {
+    position: relative;
+    pointer-events: none;
+    text-align: center;
+    top: -35px;
+    padding-right: 320px;
+    z-index: 1;
+  }
+  
+  .eye {
+    z-index: 1;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+  .imgButton {
+    background: none;
+    border: none;
+  }
+  
+  .forgot {
+    position: relative;
+    text-align: center;
+    top: -170px;
+    padding-left: 230px;
+  }
+  
+  .redirect {
+    position:relative;
+    text-align:center;
+  }
+  
+  .redirectback {
+    position:relative;
+    text-align:center;
+  }
+  
+  .forgottxt {
+    color: #FF4B26;
+    font-weight: bold;
+    position: relative;
+    top: -150px;
+  }
+  
+  .registertxt {
+    color: #26FFA4;
+    font-weight: bold;
+    position: relative;
+    top: -150px;
+    margin-right: 120px;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .signinwith {
+    position: relative;
+    text-align: center;
+    top: -20px;
+  }
+  
+  .signinwithtxt {
+    color: #ADAAAA;
+  }
+  
+  .threebuttons {
+    position: relative;
+    text-align: center;
+    top: 0px;
+  }
+  
+  .googlebutton {
+    padding-right: 30px;
+  }
+  
+  .facebookbutton {
+    padding-left: 30px;
+  }
+  
+  .signupwith {
+    position: relative;
+    text-align: center;
+    top: -20px;
+  }
+  
+  .signupwithtxt {
+    color: #ADAAAA;
+  }
+  
+  .threebuttonsregister {
+    position: relative;
+    text-align: center;
+  }
+  
+  .userregister {
+    position: relative;
+    pointer-events: none;
+    text-align: center;
+    top: -155px;
+    padding-right: 320px;
+    z-index: 1;
+  }
+  
+  .lockregister1 {
+    position: relative;
+    pointer-events: none;
+    text-align: center;
+    top: -93px;
+    padding-right: 320px;
+    z-index: 1;
+  }
+  
+  .lockregister2 {
+    position: relative;
+    pointer-events: none;
+    text-align: center;
+    top: -29px;
+    padding-right: 320px;
+    z-index: 1;
+  }
+  
+  .login {
+    position: relative;
+    text-align: center;
+    top: -150px;
+    padding-left: 200px;
+    z-index: 1;
+  }
+  
+  .logintxt {
+    color: #FF4B26;
+    font-weight: bold;
+    position: relative;
+    top: -150px;
+    z-index: 1;
+    margin-right: -180px;
+    text-align: center;
+  }
+  
+  .signup {
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    color: white;
+    margin-right: 260px;
+  }
+  
+  .resetinstructions {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  
+  .asterisk {
+    color: gold;
+    margin-left: -40px;
+  }
+  
+  .SendMessagetxt {
+    color: white;
+    opacity: 50%;
+  }
+  
+  .sendMessagetxtcontinued {
+    margin-left: -200px;
+    color: white;
+    opacity: 50%;
+  }
+  
+  .SendCodetxt {
+    position: relative;
+    top: -20px;
+    color: white;
+    left: -230px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .mail {
+    position: relative;
+    pointer-events: none;
+    text-align: center;
+    top: -93px;
+    padding-right: 315px;
+    z-index: 1;
+  }
+  
+  .changepassword {
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    color: white;
+    margin-right: 150px;
+  }
+  
+  .login2 {
+    position: relative;
+    right: 60px;
+  }

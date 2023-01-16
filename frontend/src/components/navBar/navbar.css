@@ -1,0 +1,137 @@
+.Navbar {
+  background-color: #062743;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  /* position: fi; */
+}
+.Navbar .leftSide {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Navbar .leftSide .dreamworktitle {
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  margin-left: 60px;
+  cursor: pointer;
+}
+.search-box {
+  background: white;
+  /* height: 32%; */
+  margin-left: 110px;
+  border-radius: 40px;
+  padding: 1%;
+  border: 1px solid #b8b6b6;
+  /* align-items: center; */
+  /* flex: content; */
+  /* justify-content: center; */
+  display: flex;
+  /* position: relative; */
+  /* position: flex; */
+  /* 
+      justify-items: center; */
+}
+
+.search-box-contents {
+  padding-left: 5px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.search-box .searchBar {
+  background: white;
+  /* height: 2px; */
+  /* width: 100%; */
+  border: gray;
+  font-size: medium;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-box .fa-search {
+  padding: 2%;
+  background: #062743;
+  color: white;
+
+  /* margin-right: 2%; */
+  border-radius: 100%;
+  border: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.rightSide {
+  /* flex: 50%; */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  /* position: absolute; */
+  /* position: relative; */
+}
+.rightSide .dropbtn {
+  /* color: white; */
+  /* padding: 10px; */
+  /* position: absolute;
+    float: right; */
+
+  font-size: 40px;
+  border: none;
+  color: #f1f1f1;
+  background-color: #062743;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.rightSide .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Navbar .rightSide .dropdown-content {
+  right: 4px;
+  left: auto;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.Navbar .rightSide .dropdown-content a {
+  font-family: sans-serif;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: #062743;
+}
+
+.message {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.fa-comments-o {
+  color: #888;
+  border: none;
+  cursor: pointer;
+}

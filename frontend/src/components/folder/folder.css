@@ -1,0 +1,219 @@
+.folder{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    z-index: 1;
+    height: 15vh;
+}
+
+.document{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 160px;
+    margin: 20px 20px 20px 20px;
+
+}
+.documentCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 0px 4px 30px rgba(0,0,0,0.25);
+    margin: 96px 24px 24px 24px;
+    padding: 32px 4px 24px 4px;
+    transition-duration:0.3s ;
+}
+.documentCard:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.documentImage{
+    width: 100px;
+    height: 110px;
+}
+.documentHamburger{
+    align-self: flex-end;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.documentName{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 8px;
+}
+
+.createDocumentCircleContainer{
+    text-align: center;
+    position: fixed;
+    align-items: center;
+    right: 40px;
+    bottom: 60px;
+    width: 65px;
+    height: 68px;
+    background: #FFFCFC ;
+    box-shadow:0px 4px 30px rgba(0, 0, 0, 0.25) ;
+    border-radius: 100%;
+}
+.createDocumentCircleContainer:hover{
+   cursor: pointer; 
+}
+.createDocumentCirclePlus{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.createDocumentCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width:150px;
+    background-color: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    margin: 40px 24px 48px 24px;
+    padding: 32px 4px 24px 4px;
+    cursor: default;
+}
+.createDocumentCard:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+.createDocumentImage{
+    width: 100px;
+    height: 110px;
+}
+
+.newDocumentLayer{
+    background:rgba(0,0,0,0.4); 
+    width:      100%;
+    height:     100%; 
+    z-index:    3;
+    top:        0; 
+    left:       0; 
+    position:   fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.newDocumentForm{
+    display: flex;
+    flex-direction: column;
+}
+.newDocumentInput{
+    width: 435px;
+    height: 85px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
+.newDocumentButtons{
+    opacity: 1;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 4;
+}
+.newDocumentCreate{
+    background-color: #FF4B26;
+    color: white;
+    z-index: 4;
+    opacity: 1;
+    border-radius: 5px;
+    width: 142px;
+    height: 38px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newDocumentCreate:hover{
+    cursor:pointer;
+}
+.newDocumentCancel{
+    background-color: #062743;
+    color: white;
+    z-index: 4;
+    border-radius:5px;
+    width: 142px;
+    height: 38px;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newDocumentCancel:hover{
+    cursor:pointer;
+}
+.menuList{
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 300px;
+    opacity:100 ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    box-shadow: 0px 4px 30px rgba(0,0,0,0.25);
+    padding: 0;
+    overflow: visible;
+
+}
+
+.menuItem{
+    color: #676767;
+    border-bottom: 1px solid #adaaaa;
+    padding: 12px 72px 12px 24px;
+}
+.documentHamburger{
+    z-index: 3;
+    transition-duration: 0.35s;
+}
+.documentHamburger:hover{
+    transform: rotatez(180deg);
+}
+.menuItem{
+    transition-duration: 0.3s;
+}
+.menuItem:hover{
+    background-color:#062743;
+    color: white;
+    cursor: pointer;
+}
+.deleteDocumentInput{
+    width: 435px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+    font-weight: bold;
+}
+.deleteDocumentForm{
+    display: flex;
+    flex-direction: column;
+}
+.deleteDocumentLayer{
+    background:rgba(0,0,0,0.4); 
+    width:      100%;
+    height:     100%; 
+    z-index:    3;
+    top:        0; 
+    left:       0; 
+    position:   fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}

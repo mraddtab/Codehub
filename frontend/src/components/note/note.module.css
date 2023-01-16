@@ -1,0 +1,132 @@
+.notePageBodyBackground {
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  margin-top: 110px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.code {
+position: relative;
+width: 55%;
+height: 100vh;
+}
+
+.codeEditor {
+  background-color: #292C34;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 2px 0px;  /*Option 6 from https://getcssscan.com/css-box-shadow-examples*/
+  border-radius: 4px 4px 4px 4px;
+}
+
+.codeEditorHeader {
+}
+
+.codeEditorHeaderLanguageSelection {
+  border: none;
+  appearance: none;
+  background-color:rgba(255, 255, 255, 0.1);
+  text-align-last: center;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 4px;
+  color: white;
+}
+
+.codeEditorHeaderSave {
+  border: 0;
+  background-color:rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+
+
+  color: white;
+}
+
+.codeEditorHeaderSave:active {
+  background-color: rgba(43, 199, 72, 0.672);;
+}
+
+.codeEditorFooter {
+  padding-top: 10px;
+}
+
+
+/* .selectLanguage {
+width: 90px;
+padding: 2px; */
+/* box-shadow: rgba(99, 99, 99, 0.2) 0px -1px 2px 0px;  Option 6 from https://getcssscan.com/css-box-shadow-examples */
+/* border-radius: 4px 4px 0px 0px;
+border: 0px;
+} */
+
+.comments {
+position: relative;
+width: 45%;
+}
+
+
+.viewButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  left:94vw;
+  bottom: 5vh;
+  width: 50px;
+  height: 50px;
+  border-radius: 45px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.2s ease-in-out;           /* Makes any future tranform features smooth */
+}
+
+.viewButton:hover {
+}
+
+.viewButtonLine1 {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 22.5px;
+height: 4.8px;
+border-radius: 2px;
+background: white;
+transform-origin: center;
+transform: translate(-50%, -50%) rotate(45deg);         /* Only difference between the other line. This is this: '\' */
+}
+
+.viewButtonLine2 {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 22.5px;
+height: 4.5px;
+border-radius: 2px;
+background: white;
+transform-origin: center;
+transform: translate(-50%, -50%) rotate(-45deg);        /* Only difference between the other line. This is this: '/' */
+}
+
+.original {
+opacity: 0;
+transition: opacity 1s ease, transform 1s ease;
+}
+
+.fadeIn {
+opacity: 1;
+}
+
+.addComment {
+  animation: pop 0.1s linear 1; /* animation for comment box */
+}
+
+/* Helper animation for add comment icon*/
+@keyframes pop {
+50% {
+  transform: scale(1.2);
+}
+}

@@ -1,0 +1,116 @@
+.comment {
+  position: relative;
+  background-color: #292C34;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; /*Option 6 from https://getcssscan.com/css-box-shadow-examples*/
+  width: 350px; /*Fixed width of the comment*/
+  padding: 10px;
+  animation: pop 0.1s linear 1; /* animation for comment box */
+}
+
+@keyframes pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.error {
+  color: red;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.textareaInput {
+  font-size: 14px;
+}
+
+.flexTitle {
+  display: flex;
+}
+
+.titleInput {
+  font-family: sans-serif;
+  font-weight: bold;
+  flex: 1;
+  resize: none; /*Remove resizeing feature*/
+  overflow: hidden; /*Remove scroll bar*/
+  border: none; /*Removes the outline*/
+  outline: none; /*Removes blue outline when clicked*/
+  background: transparent;
+  color: white;
+}
+
+.flexInput {
+  /*Used to make textarea fill the whole width of div. This is just setting it up*/
+  display: flex;
+  margin-bottom: 16px; /*Makes the div evenly spaced from the bottom. The heading text has margin-top: 16px automatically*/
+}
+
+.input {
+  font-family: sans-serif;
+  flex: 1; /*Make text area fill the width of parent*/
+  resize: none; /*Remove resizeing feature*/
+  overflow: hidden; /*Remove scroll bar*/
+  border-radius: 5px; /*Making textarea box have curved edges*/
+  border: 1px solid rgb(93, 93, 93); /*Making textarea outline smaller and be grey: https://stackoverflow.com/a/16156683/18401461*/
+  background-color: rgb(57, 57, 57);
+  color: white
+}
+
+.closeButton {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  background: gray;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out; /* Makes any future tranform features smooth */
+}
+
+.closeButton:hover {
+  transform: rotate(45deg);
+  background: red;
+}
+
+.closeButtonLine1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 2px;
+  border-radius: 2px;
+  background: white;
+  transform-origin: center;
+  transform: translate(-50%, -50%) rotate(45deg); /* Only difference between the other line. This is this: '\' */
+}
+
+.closeButtonLine2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 2px;
+  border-radius: 2px;
+  background: white;
+  transform-origin: center;
+  transform: translate(-50%, -50%) rotate(-45deg); /* Only difference between the other line. This is this: '/' */
+}
+
+.Hiddenvalueholder {
+  visibility: hidden;
+  display: none;
+}
+
+.submitButton {
+  border: 0;
+  background-color:rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+
+
+  color: white;
+}
+
+.submitButton:active {
+  background-color: rgba(43, 199, 72, 0.672);;
+}
