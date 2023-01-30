@@ -1,4 +1,22 @@
 # Bees
+
+How to use
+<br/>
+1. Open two terminals
+<br/>
+2. Navigate into /backend 
+<br/>
+3. run "npm i nodemon"
+<br/>
+4. Navigate into /frontend in terminal 1
+<br/>
+5. run "npm i react express"
+<br/>
+6. run "npm start"
+<br/>
+7. Navigate to http://localhost:3000
+<br/>
+
 Credits:
 Ronald Chen
 <br/>
