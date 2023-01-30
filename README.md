@@ -17,7 +17,8 @@
 <br/>
 <br/>
 
-Credits:
+<h1>Credits</h1>
+<br/>
 Ronald Chen
 <br/>
 Anthony Mendez
