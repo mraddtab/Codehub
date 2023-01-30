@@ -1,7 +1,6 @@
 # Bees
 
 How to use
-<br/>
 1. Open two terminals
 <br/>
 2. Navigate into /backend 
