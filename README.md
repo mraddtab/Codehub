@@ -1,6 +1,6 @@
 # Bees
 
-How to use
+<h1>How to use </h1>
 1. Open two terminals
 <br/>
 2. Navigate into /backend 
@@ -14,6 +14,7 @@ How to use
 6. run "npm start"
 <br/>
 7. Navigate to http://localhost:3000
+<br/>
 <br/>
 
 Credits:
